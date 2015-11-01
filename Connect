@@ -3,7 +3,7 @@ for _,v in pairs(game.Players:GetPlayers()) do
  if v:IsA('Player') then 
 local msg = Instance.new('StringValue',v) 
 msg.Name = "SB_Chat" 
-msg.Value = '[Gavin]/'..Message..' '
+msg.Value = '[Core]/'..Message..' '
  end 
 end
 end
@@ -15,10 +15,12 @@ SIX:Pause()
 
 Ox('Loading All 5 Packages')
 wait(8)
-Ox("Connecting to gavinsharp100'sb")
-Ox('Failed To connect')
-Ox('Going Offline')
-Ox('SB you are now connected to Gavin')
+Ox("Connecting to CoreSB'sb")
+Ox("Connected!")
+Ox("50%")"
+Ox("100")
+Ox('SB you are now connected to Core')
+Ox('CoreSB: Controling The Server Now')
 
 game:GetService("Players").PlayerRemoving:connect(function(Player)
 Ox(Player.Name..' Has Disconected')
